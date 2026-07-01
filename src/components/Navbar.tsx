@@ -29,7 +29,7 @@ function NavLink({ to, children }: { to: string; children: ReactNode }) {
       <Link
         href={to}
         style={{
-          color: "#521A1A",
+          color: "#FFDB87",
           textDecoration: "none",
           fontSize: "16px",
           letterSpacing: "0.05em",
@@ -55,8 +55,8 @@ function Navbar() {
         alignItems: "center",
         justifyContent: "space-between",
         padding: "16px clamp(16px, 4vw, 48px)",
-        background: "#FFDB87dd",
-        borderRadius: "8px",
+        background: "#521A1Add",
+        borderRadius: "0px",
       }}
     >
       <div

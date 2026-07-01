@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>© {new Date().getFullYear()} Angie Zhang. All rights reserved.</p>
+      <center><p>made by angie, with fun!</p></center>
     </footer>
   );
 }
