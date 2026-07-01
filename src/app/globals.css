@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --font-heading: var(--font-fraunces), serif;
+  --font-body: var(--font-lora), serif;
+  --font-ui: var(--font-jost), sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  line-height: 1.25;
+  font-variation-settings:
+        "SOFT" 70,
+        "WONK" 1;
+}
+
+h1 { font-size: 60px; }
+h2 { font-size: 26px; }
+h3 { font-size: 22px; }
+h4, h5, h6 { font-size: 18px; }
